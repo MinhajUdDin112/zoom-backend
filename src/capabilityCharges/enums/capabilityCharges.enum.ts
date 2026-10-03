@@ -1,0 +1,6 @@
+export enum TYPE {
+  NONE = "NONE",
+  DRIVER = "DRIVER",
+  VEHICLE = "VEHICLE",
+  DRIVER_AND_VEHICLE = "DRIVER_AND_VEHICLE",
+}

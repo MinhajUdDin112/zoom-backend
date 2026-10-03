@@ -1,0 +1,13 @@
+node_modules/*
+dist/*
+.idea/*
+.env
+LICENSE
+README.md
+package-lock.json
+yarn.lock
+
+zoom-cars-2c98b-firebase-adminsdk-1poch-3d5181ce5d.json
+zoomcars-service-account.json
+*-firebase-adminsdk-*.json
+*service-account*.json

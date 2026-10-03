@@ -1,0 +1,33 @@
+export enum EPusherChannel {
+  ZOOM_CARS_DEV_CHANNEL = "ZOOM-CARS-DEV-CHANNEL",
+}
+
+export enum EPusherEvent {
+  RIDE_HELD = "ride-held",
+  RIDE_RELEASED = "ride-released",
+  NEW_RIDE = "new-ride",
+  RIDE_DISPATCHED = "ride-dispatched",
+  RIDE_ACCEPTED = "ride-accepted",
+  RIDE_ARRIVED = "ride-arrived",
+  RIDE_STARTED = "ride-started",
+  RIDE_COMPLETED = "ride-completed",
+  RIDE_COMPLETED_OPERATOR = "ride-completed-operator",
+  RIDE_CANCELLED_FOB = "ride-cancelled-fob",
+  RIDE_CANCELLED = "ride-cancelled",
+  RIDE_NO_FARE = "ride-no-fare",
+  RIDE_NO_FARE_OPERATOR = "ride-no-fare-operator",
+  RIDE_REJECTED = "ride-rejected",
+  RIDE_RECOVERED = "ride-recovered",
+  RIDE_PICKEDUP = "ride-pickedup",
+  RIDE_REQUESTED_FOB = "ride-requested-fob",
+  RIDE_DISPATCHED_FOB = "ride-dispatched-fob",
+  RIDE_ACCEPTED_FOB = "ride-accepted-fob",
+  RIDE_REJECTED_FOB = "ride-rejected-fob",
+  RIDE_OVERRIDE_FOB_REQUESTED = "ride-override-fob-requested",
+  RIDE_OVERRIDE_FOB_DISPATCHED = "ride-override-fob-dispatched",
+  RIDE_OVERRIDE_FOB_REJECTED = "ride-override-fob-rejected",
+  RIDE_OVERRIDE_REQUESTED = "ride-override-requested",
+  RIDE_OVERRIDE_DISPATCHED = "ride-override-dispatched-requested",
+  RIDE_OVERRIDE_REJECTED = "ride-override-rejected",
+  CHAT_NEW_MESSAGE = "chat-new-message",
+}

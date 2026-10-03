@@ -1,0 +1,12 @@
+export enum STATUS {
+  ACTIVE = "ACTIVE",
+  DISABLED = "DISABLED",
+  SUSPENDED="SUSPENDED"
+}
+
+export enum DriverTypeEnum {
+    HOURLY = "HOURLY",
+    FIFTY_FIFTY = "FIFTY_FIFTY",
+    RENTAL = "RENTAL",
+    SELF_EMPLOYED = "SELF_EMPLOYED",
+  }
